@@ -122,6 +122,12 @@
     <None Include="Resources\TIMCYR.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{e938a096-7b8e-445e-9d17-f5b15aa9b498}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="Migrations\201806211341275_FirstMigrations.resx">
       <DependentUpon>201806211341275_FirstMigrations.cs</DependentUpon>
     </EmbeddedResource>
